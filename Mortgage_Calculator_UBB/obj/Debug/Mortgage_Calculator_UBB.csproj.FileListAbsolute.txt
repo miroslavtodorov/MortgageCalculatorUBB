@@ -1,0 +1,9 @@
+D:\Miro\Software_projects\Mortgage_Calculator_UBB\Mortgage_Calculator_UBB\bin\Debug\Mortgage_Calculator_UBB.exe.config
+D:\Miro\Software_projects\Mortgage_Calculator_UBB\Mortgage_Calculator_UBB\bin\Debug\Mortgage_Calculator_UBB.exe
+D:\Miro\Software_projects\Mortgage_Calculator_UBB\Mortgage_Calculator_UBB\bin\Debug\Mortgage_Calculator_UBB.pdb
+D:\Miro\Software_projects\Mortgage_Calculator_UBB\Mortgage_Calculator_UBB\obj\Debug\Mortgage_Calculator_UBB.csprojResolveAssemblyReference.cache
+D:\Miro\Software_projects\Mortgage_Calculator_UBB\Mortgage_Calculator_UBB\obj\Debug\Mortgage_Calculator_UBB.Form1.resources
+D:\Miro\Software_projects\Mortgage_Calculator_UBB\Mortgage_Calculator_UBB\obj\Debug\Mortgage_Calculator_UBB.Properties.Resources.resources
+D:\Miro\Software_projects\Mortgage_Calculator_UBB\Mortgage_Calculator_UBB\obj\Debug\Mortgage_Calculator_UBB.csproj.GenerateResource.Cache
+D:\Miro\Software_projects\Mortgage_Calculator_UBB\Mortgage_Calculator_UBB\obj\Debug\Mortgage_Calculator_UBB.exe
+D:\Miro\Software_projects\Mortgage_Calculator_UBB\Mortgage_Calculator_UBB\obj\Debug\Mortgage_Calculator_UBB.pdb
