@@ -12,57 +12,40 @@ namespace Mortgage_Calculator_UBB
 {
     public partial class Form1 : Form
     {
-        Double Euro = 1.95581;
-
+        
         public Form1()
 
         {
             InitializeComponent();
         }
         
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
+        private void Form1_Load(object sender, EventArgs e) { }
         private void exchangebtn_click(object sender, EventArgs e)
         {
+            Double Euro = 1.95581;
             Double EurAmount = Double.Parse(EurText.Text);
-            Double LevaAmount = EurAmount * Euro;
+            Double leva = EurAmount * Euro;
 
-            BGNText.Text = System.Convert.ToString(Math.Round(LevaAmount,2));
+            EurText.Text = EurAmount.ToString("### ### ### ###.00");
+            BGNText.Text = leva.ToString("### ### ### ###.00");
         }
 
         private void Calculate_click(object sender, EventArgs e)
         {
             Double Leva = Double.Parse(BGNText.Text);
+            BGNText.Text = Leva.ToString("### ### ### ###.00");
 
             Double Self = Leva * 0.15;
-            SelfFund.Text = System.Convert.ToString(Math.Round(Self, 2));
+            SelfFund.Text = Self.ToString("### ### ### ###.00");
 
             Double Credit = Leva * 0.85;
-            CreditAmount.Text = System.Convert.ToString(Math.Round(Credit, 2));
+            CreditAmount.Text = Credit.ToString("### ### ### ###.00");
 
             Double Vnoska = Credit * 0.0046052;
-            Monthly.Text = System.Convert.ToString(Math.Round(Vnoska, 2));
+            Monthly.Text = Vnoska.ToString("### ### ### ###.00");
 
             Double All = Vnoska * 420;
-            TotalPaid.Text = System.Convert.ToString(Math.Round(All, 2));
+            TotalPaid.Text = All.ToString("### ### ### ###.00");
         }
     }
 }

@@ -74,7 +74,6 @@
             this.label1.Size = new System.Drawing.Size(725, 33);
             this.label1.TabIndex = 1;
             this.label1.Text = "КАЛКУЛАТОР ЗА ИПОТЕЧНИ КРЕДИТИ КЪМ ОББ АД\r\n";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -95,7 +94,6 @@
             this.label3.Size = new System.Drawing.Size(202, 23);
             this.label3.TabIndex = 3;
             this.label3.Text = "Цена на имота в BGN";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // button1
             // 
@@ -133,7 +131,6 @@
             this.label4.Size = new System.Drawing.Size(147, 23);
             this.label4.TabIndex = 8;
             this.label4.Text = "САМОУЧАСТИЕ";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label5
             // 
