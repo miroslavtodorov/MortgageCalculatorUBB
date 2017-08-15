@@ -51,8 +51,8 @@
             this.CreditAmount = new System.Windows.Forms.TextBox();
             this.EurText = new System.Windows.Forms.TextBox();
             this.BGNText = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label14 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -282,53 +282,22 @@
             this.BGNText.Text = "0.00";
             this.BGNText.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold);
+            this.label14.Location = new System.Drawing.Point(204, 203);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(209, 23);
+            this.label14.TabIndex = 29;
+            this.label14.Text = "СРОК ЗА ИЗПЛАЩАНЕ";
+            // 
             // comboBox1
             // 
-            this.comboBox1.AllowDrop = true;
-            this.comboBox1.AutoCompleteCustomSource.AddRange(new string[] {
-            "1 година",
-            "2 години",
-            "3 години",
-            "4 години",
-            "5 години",
-            "6 години",
-            "7 години",
-            "8 години",
-            "9 години",
-            "10 години",
-            "11 години",
-            "12 години",
-            "13 години",
-            "14 години",
-            "15 години",
-            "16 години",
-            "17 години",
-            "18 години",
-            "19 години",
-            "20 години",
-            "21 години",
-            "22 години",
-            "23 години",
-            "24 години",
-            "25 години",
-            "26 години",
-            "27 години",
-            "28 години",
-            "29 години",
-            "30 години",
-            "31 години",
-            "32 години",
-            "33 години",
-            "34 години",
-            "35 години"});
-            this.comboBox1.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.comboBox1.DisplayMember = "1 година";
-            this.comboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.comboBox1.DropDownHeight = 100;
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.comboBox1.DisplayMember = "(none)";
             this.comboBox1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.IntegralHeight = false;
             this.comboBox1.Items.AddRange(new object[] {
             "1 година",
             "2 години",
@@ -367,26 +336,19 @@
             "35 години"});
             this.comboBox1.Location = new System.Drawing.Point(435, 203);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(182, 27);
-            this.comboBox1.TabIndex = 28;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold);
-            this.label14.Location = new System.Drawing.Point(204, 203);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(209, 23);
-            this.label14.TabIndex = 29;
-            this.label14.Text = "СРОК ЗА ИЗПЛАЩАНЕ";
+            this.comboBox1.Size = new System.Drawing.Size(182, 26);
+            this.comboBox1.TabIndex = 30;
+            this.comboBox1.Tag = "35 години";
+            this.comboBox1.Text = "35 години";
+            this.comboBox1.ValueMember = "35 години";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(917, 465);
-            this.Controls.Add(this.label14);
             this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.label14);
             this.Controls.Add(this.BGNText);
             this.Controls.Add(this.EurText);
             this.Controls.Add(this.CreditAmount);
@@ -444,8 +406,8 @@
         private System.Windows.Forms.TextBox CreditAmount;
         private System.Windows.Forms.TextBox EurText;
         private System.Windows.Forms.TextBox BGNText;
-        private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
 
